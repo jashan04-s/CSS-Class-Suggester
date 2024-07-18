@@ -4,7 +4,7 @@
   "description": "CSS Class Suggester helps users identify what class name to give their div in the JavaScript file, as well as what css class attributes to modify, by understanding what classes are present in the JavaScript file",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.89.1" 
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Other"
@@ -14,15 +14,16 @@
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "css-class-suggester.helloWorld",
-      "title": "Hello World"
-    },
-    {
-      "command": "css-class-suggester.typingListener",
-      "title": "typingListener"
-    }
-  ]
+    "commands": [
+      {
+        "command": "css-class-suggester.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "css-class-suggester.typingListener",
+        "title": "typingListener"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
