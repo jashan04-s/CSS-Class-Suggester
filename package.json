@@ -10,18 +10,16 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:javascript"
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:typescript"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "css-class-suggester.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "css-class-suggester.typingListener",
-        "title": "typingListener"
+        "command": "css-class-suggester.scanCSSFiles",
+        "title": "Scan CSS Files for Classes"
       }
     ]
   },
